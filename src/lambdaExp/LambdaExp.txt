@@ -1,0 +1,19 @@
+A JAVA 8 lambda is  basically a function in java without decleration usually written as (parameter)-> {body}
+
+EXAMPLE:
+
+(int x, int y) -> x+y
+(int x, int y) -> {return x+y;}
+
+x -> x*x
+() -> x
+
+1. A lambda can have 0 or more parameters seperated by commas and their type can be explicitly decleared or       inferred from the context
+
+2. Parenthesis are not needed around a single parameter
+
+3. () is used to denote zero parameters
+
+4. The body can contain zero or more statments
+
+5. Braces are not needed around a single statment body
